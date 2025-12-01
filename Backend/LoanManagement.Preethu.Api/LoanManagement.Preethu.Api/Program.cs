@@ -1,4 +1,13 @@
 
+using LoanManagement.Preethu.Api.Database;
+using LoanManagement.Preethu.Api.Models;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using System.Text.Json;
+
 namespace LoanManagement.Preethu.Api
 {
     public class Program
@@ -13,7 +22,40 @@ namespace LoanManagement.Preethu.Api
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-
+            builder.Services.AddControllers()
+                .AddJsonOptions(options =>
+                {
+                    options.JsonSerializerOptions.DefaultIgnoreCondition =
+                    System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull;
+                });
+                builder.Services.AddDbContext<BankLoanDbContext>(options =>
+                {
+                    var ConnectionString = builder.Configuration.GetConnectionString("ListuraHome");
+                    options.UseSqlServer(ConnectionString);
+                });
+                builder.Services.AddIdentity<UserProfile, IdentityRole>()
+                    .AddEntityFrameworkStores<BankLoanDbContext>()
+                    .AddDefaultTokenProviders();
+                builder.Services.AddAuthentication(options =>
+                {
+                    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+                })
+                .AddJwtBearer(options =>
+                {
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateIssuer = true,
+                        ValidateAudience = true,
+                        ValidateLifetime = true,
+                        ValidateIssuerSigningKey = true,
+                        ValidIssuer = builder.Configuration["JwtSettings:Issuer"],
+                        ValidAudience = builder.Configuration["JwtSettings:Audience"],
+                        IssuerSigningKey = new SymmetricSecurityKey(
+                            Encoding.UTF8.GetBytes(builder.Configuration["JwtSettings:SecretKey"])
+                        )
+                    };
+                });
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -23,11 +65,11 @@ namespace LoanManagement.Preethu.Api
                 app.UseSwaggerUI();
             }
 
-            app.UseHttpsRedirection();
-
+            app.UseCors("AllowAngularApp");
+            app.UseAuthentication();
             app.UseAuthorization();
 
-
+            app.MapIdentityApi<IdentityUser>();
             app.MapControllers();
 
             app.Run();
