@@ -8,5 +8,6 @@ namespace LoanManagement.Preethu.Api.Models
         //nav
         public CustomerProfile Customer { get; set; }
         public OfficerProfile Officer { get; set; }
+        public AdminProfile Admin { get; set; }
     }
 }
