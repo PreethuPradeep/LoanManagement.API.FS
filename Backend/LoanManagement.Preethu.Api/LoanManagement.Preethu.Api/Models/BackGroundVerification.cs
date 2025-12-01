@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace LoanManagement.Preethu.Api.Models
 {
@@ -9,8 +10,10 @@ namespace LoanManagement.Preethu.Api.Models
         public int BackGroundVerificationId { get; set; }
         public int LoanRequestId { get; set; }
         [ForeignKey("LoanRequestId")]
+        [JsonIgnore]
         public LoanRequest Loan { get; set; }
         public int OfficerId { get; set; }
+        [JsonIgnore]
         public OfficerProfile Officer { get; set; }
         public string AddressCheck { get; set; }
         public string IncomeCheck { get; set; }

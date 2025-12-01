@@ -1,9 +1,11 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using System.ComponentModel.DataAnnotations;
 
 namespace LoanManagement.Preethu.Api.Models
 {
     public class UserProfile:IdentityUser
     {
+        [Required]
         public string FullName { get; set; }
         //nav
         public CustomerProfile Customer { get; set; }

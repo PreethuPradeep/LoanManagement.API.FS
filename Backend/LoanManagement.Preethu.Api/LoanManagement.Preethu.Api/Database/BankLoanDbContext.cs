@@ -66,12 +66,24 @@ namespace LoanManagement.Preethu.Api.Database
                 .HasOne(h => h.User)
                 .WithMany()
                 .HasForeignKey(h => h.UserId);
+            //reqyured
+            builder.Entity<CustomerProfile>()
+                .Property(c => c.UserId)
+                .IsRequired();
+
+            builder.Entity<OfficerProfile>()
+                .Property(o => o.UserId)
+                .IsRequired();
+
+            builder.Entity<AdminProfile>()
+                .Property(a => a.UserId)
+                .IsRequired();
+
 
             //decimal precision
             builder.Entity<LoanRequest>().Property(p => p.AmountRequested).HasPrecision(18, 2);
             builder.Entity<LoanRequest>().Property(p => p.CollateralEstimatedWorth).HasPrecision(18, 2);
             builder.Entity<LoanRequest>().Property(p => p.InterestRate).HasPrecision(5, 4);
-            builder.Entity<OfficerProfile>().Property(p => p.Salary).HasPrecision(18, 2);
         }
     }
 }

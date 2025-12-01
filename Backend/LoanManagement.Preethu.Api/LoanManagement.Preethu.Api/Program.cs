@@ -69,7 +69,7 @@ namespace LoanManagement.Preethu.Api
             app.UseAuthentication();
             app.UseAuthorization();
 
-            app.MapIdentityApi<IdentityUser>();
+            app.MapIdentityApi<UserProfile>();
             app.MapControllers();
 
             app.Run();

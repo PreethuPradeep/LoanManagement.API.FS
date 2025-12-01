@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace LoanManagement.Preethu.Api.Models
 {
@@ -19,7 +20,9 @@ namespace LoanManagement.Preethu.Api.Models
         public decimal CollateralEstimatedWorth { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
         public LoanRequestStatus Status { get; set; }
+        [JsonIgnore]
         public ICollection<LoanVerification> LoanVerification { get; set; }
+        [JsonIgnore]
         public ICollection<BackGroundVerification> BackGroundVerification { get; set; }
     }
 }
