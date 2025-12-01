@@ -28,15 +28,25 @@ namespace LoanManagement.Preethu.Api
                     options.JsonSerializerOptions.DefaultIgnoreCondition =
                     System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull;
                 });
-                builder.Services.AddDbContext<BankLoanDbContext>(options =>
+            builder.Services.AddDbContext<BankLoanDbContext>(options =>
                 {
                     var ConnectionString = builder.Configuration.GetConnectionString("ListuraHome");
                     options.UseSqlServer(ConnectionString);
                 });
-                builder.Services.AddIdentity<UserProfile, IdentityRole>()
+            builder.Services.AddIdentity<UserProfile, IdentityRole>()
                     .AddEntityFrameworkStores<BankLoanDbContext>()
                     .AddDefaultTokenProviders();
-                builder.Services.AddAuthentication(options =>
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAngularApp", policy =>
+                {
+                    policy.AllowAnyHeader()
+                          .AllowAnyMethod()
+                          .AllowAnyOrigin();
+                });
+            });
+
+            builder.Services.AddAuthentication(options =>
                 {
                     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
                     options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;

@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\WebAPI\\LoanManagementSystem.Preethu.FullStack\\Backend\\LoanManagement.Preethu.Api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FF49BB7F-E532-4781-A11F-070994C4E6BC}|LoanManagement.Preethu.Api\\LoanManagement.Preethu.Api.csproj|d:\\webapi\\loanmanagementsystem.preethu.fullstack\\backend\\loanmanagement.preethu.api\\loanmanagement.preethu.api\\repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF49BB7F-E532-4781-A11F-070994C4E6BC}|LoanManagement.Preethu.Api\\LoanManagement.Preethu.Api.csproj|solutionrelative:loanmanagement.preethu.api\\repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF49BB7F-E532-4781-A11F-070994C4E6BC}|LoanManagement.Preethu.Api\\LoanManagement.Preethu.Api.csproj|d:\\webapi\\loanmanagementsystem.preethu.fullstack\\backend\\loanmanagement.preethu.api\\loanmanagement.preethu.api\\repositories\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF49BB7F-E532-4781-A11F-070994C4E6BC}|LoanManagement.Preethu.Api\\LoanManagement.Preethu.Api.csproj|solutionrelative:loanmanagement.preethu.api\\repositories\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF49BB7F-E532-4781-A11F-070994C4E6BC}|LoanManagement.Preethu.Api\\LoanManagement.Preethu.Api.csproj|d:\\webapi\\loanmanagementsystem.preethu.fullstack\\backend\\loanmanagement.preethu.api\\loanmanagement.preethu.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF49BB7F-E532-4781-A11F-070994C4E6BC}|LoanManagement.Preethu.Api\\LoanManagement.Preethu.Api.csproj|solutionrelative:loanmanagement.preethu.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\WebAPI\\LoanManagementSystem.Preethu.FullStack\\Backend\\LoanManagement.Preethu.Api\\LoanManagement.Preethu.Api\\Migrations\\20251201092230_FixedDbContextRequired.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LoanManagement.Preethu.Api\\Migrations\\20251201092230_FixedDbContextRequired.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -47,18 +59,6 @@
       "RelativeMoniker": "D:0:0:{FF49BB7F-E532-4781-A11F-070994C4E6BC}|LoanManagement.Preethu.Api\\LoanManagement.Preethu.Api.csproj|solutionrelative:loanmanagement.preethu.api\\models\\loanrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF49BB7F-E532-4781-A11F-070994C4E6BC}|LoanManagement.Preethu.Api\\LoanManagement.Preethu.Api.csproj|d:\\webapi\\loanmanagementsystem.preethu.fullstack\\backend\\loanmanagement.preethu.api\\loanmanagement.preethu.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF49BB7F-E532-4781-A11F-070994C4E6BC}|LoanManagement.Preethu.Api\\LoanManagement.Preethu.Api.csproj|solutionrelative:loanmanagement.preethu.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF49BB7F-E532-4781-A11F-070994C4E6BC}|LoanManagement.Preethu.Api\\LoanManagement.Preethu.Api.csproj|d:\\webapi\\loanmanagementsystem.preethu.fullstack\\backend\\loanmanagement.preethu.api\\loanmanagement.preethu.api\\repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF49BB7F-E532-4781-A11F-070994C4E6BC}|LoanManagement.Preethu.Api\\LoanManagement.Preethu.Api.csproj|solutionrelative:loanmanagement.preethu.api\\repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF49BB7F-E532-4781-A11F-070994C4E6BC}|LoanManagement.Preethu.Api\\LoanManagement.Preethu.Api.csproj|d:\\webapi\\loanmanagementsystem.preethu.fullstack\\backend\\loanmanagement.preethu.api\\loanmanagement.preethu.api\\repositories\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF49BB7F-E532-4781-A11F-070994C4E6BC}|LoanManagement.Preethu.Api\\LoanManagement.Preethu.Api.csproj|solutionrelative:loanmanagement.preethu.api\\repositories\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FF49BB7F-E532-4781-A11F-070994C4E6BC}|LoanManagement.Preethu.Api\\LoanManagement.Preethu.Api.csproj|d:\\webapi\\loanmanagementsystem.preethu.fullstack\\backend\\loanmanagement.preethu.api\\loanmanagement.preethu.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{FF49BB7F-E532-4781-A11F-070994C4E6BC}|LoanManagement.Preethu.Api\\LoanManagement.Preethu.Api.csproj|solutionrelative:loanmanagement.preethu.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -78,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "20251201092230_FixedDbContextRequired.cs",
               "DocumentMoniker": "D:\\WebAPI\\LoanManagementSystem.Preethu.FullStack\\Backend\\LoanManagement.Preethu.Api\\LoanManagement.Preethu.Api\\Migrations\\20251201092230_FixedDbContextRequired.cs",
               "RelativeDocumentMoniker": "LoanManagement.Preethu.Api\\Migrations\\20251201092230_FixedDbContextRequired.cs",
@@ -119,39 +119,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 0,
               "Title": "AuthRepository.cs",
               "DocumentMoniker": "D:\\WebAPI\\LoanManagementSystem.Preethu.FullStack\\Backend\\LoanManagement.Preethu.Api\\LoanManagement.Preethu.Api\\Repositories\\AuthRepository.cs",
               "RelativeDocumentMoniker": "LoanManagement.Preethu.Api\\Repositories\\AuthRepository.cs",
               "ToolTip": "D:\\WebAPI\\LoanManagementSystem.Preethu.FullStack\\Backend\\LoanManagement.Preethu.Api\\LoanManagement.Preethu.Api\\Repositories\\AuthRepository.cs",
               "RelativeToolTip": "LoanManagement.Preethu.Api\\Repositories\\AuthRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAqwFMAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-01T08:34:47.613Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 1,
               "Title": "IAuthRepository.cs",
               "DocumentMoniker": "D:\\WebAPI\\LoanManagementSystem.Preethu.FullStack\\Backend\\LoanManagement.Preethu.Api\\LoanManagement.Preethu.Api\\Repositories\\IAuthRepository.cs",
               "RelativeDocumentMoniker": "LoanManagement.Preethu.Api\\Repositories\\IAuthRepository.cs",
               "ToolTip": "D:\\WebAPI\\LoanManagementSystem.Preethu.FullStack\\Backend\\LoanManagement.Preethu.Api\\LoanManagement.Preethu.Api\\Repositories\\IAuthRepository.cs",
               "RelativeToolTip": "LoanManagement.Preethu.Api\\Repositories\\IAuthRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvxUAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-01T07:53:39.409Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\WebAPI\\LoanManagementSystem.Preethu.FullStack\\Backend\\LoanManagement.Preethu.Api\\LoanManagement.Preethu.Api\\Program.cs",
               "RelativeDocumentMoniker": "LoanManagement.Preethu.Api\\Program.cs",
               "ToolTip": "D:\\WebAPI\\LoanManagementSystem.Preethu.FullStack\\Backend\\LoanManagement.Preethu.Api\\LoanManagement.Preethu.Api\\Program.cs",
               "RelativeToolTip": "LoanManagement.Preethu.Api\\Program.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAcwEcAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAkwE0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-01T07:19:25.283Z",
               "EditorCaption": ""
@@ -171,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "AdminProfile.cs",
               "DocumentMoniker": "D:\\WebAPI\\LoanManagementSystem.Preethu.FullStack\\Backend\\LoanManagement.Preethu.Api\\LoanManagement.Preethu.Api\\Models\\AdminProfile.cs",
               "RelativeDocumentMoniker": "LoanManagement.Preethu.Api\\Models\\AdminProfile.cs",
@@ -197,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "FeedBackReply.cs",
               "DocumentMoniker": "D:\\WebAPI\\LoanManagementSystem.Preethu.FullStack\\Backend\\LoanManagement.Preethu.Api\\LoanManagement.Preethu.Api\\Models\\FeedBackReply.cs",
               "RelativeDocumentMoniker": "LoanManagement.Preethu.Api\\Models\\FeedBackReply.cs",
@@ -223,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "HelpReport.cs",
               "DocumentMoniker": "D:\\WebAPI\\LoanManagementSystem.Preethu.FullStack\\Backend\\LoanManagement.Preethu.Api\\LoanManagement.Preethu.Api\\Models\\HelpReport.cs",
               "RelativeDocumentMoniker": "LoanManagement.Preethu.Api\\Models\\HelpReport.cs",
@@ -236,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "LoanVerification.cs",
               "DocumentMoniker": "D:\\WebAPI\\LoanManagementSystem.Preethu.FullStack\\Backend\\LoanManagement.Preethu.Api\\LoanManagement.Preethu.Api\\Models\\LoanVerification.cs",
               "RelativeDocumentMoniker": "LoanManagement.Preethu.Api\\Models\\LoanVerification.cs",
@@ -249,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "BackGroundVerification.cs",
               "DocumentMoniker": "D:\\WebAPI\\LoanManagementSystem.Preethu.FullStack\\Backend\\LoanManagement.Preethu.Api\\LoanManagement.Preethu.Api\\Models\\BackGroundVerification.cs",
               "RelativeDocumentMoniker": "LoanManagement.Preethu.Api\\Models\\BackGroundVerification.cs",
@@ -262,7 +262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "LoanRequest.cs",
               "DocumentMoniker": "D:\\WebAPI\\LoanManagementSystem.Preethu.FullStack\\Backend\\LoanManagement.Preethu.Api\\LoanManagement.Preethu.Api\\Models\\LoanRequest.cs",
               "RelativeDocumentMoniker": "LoanManagement.Preethu.Api\\Models\\LoanRequest.cs",
@@ -275,7 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "OfficerProfile.cs",
               "DocumentMoniker": "D:\\WebAPI\\LoanManagementSystem.Preethu.FullStack\\Backend\\LoanManagement.Preethu.Api\\LoanManagement.Preethu.Api\\Models\\OfficerProfile.cs",
               "RelativeDocumentMoniker": "LoanManagement.Preethu.Api\\Models\\OfficerProfile.cs",
@@ -288,7 +288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "CustomerProfile.cs",
               "DocumentMoniker": "D:\\WebAPI\\LoanManagementSystem.Preethu.FullStack\\Backend\\LoanManagement.Preethu.Api\\LoanManagement.Preethu.Api\\Models\\CustomerProfile.cs",
               "RelativeDocumentMoniker": "LoanManagement.Preethu.Api\\Models\\CustomerProfile.cs",
@@ -301,7 +301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "UserProfile.cs",
               "DocumentMoniker": "D:\\WebAPI\\LoanManagementSystem.Preethu.FullStack\\Backend\\LoanManagement.Preethu.Api\\LoanManagement.Preethu.Api\\Models\\UserProfile.cs",
               "RelativeDocumentMoniker": "LoanManagement.Preethu.Api\\Models\\UserProfile.cs",
@@ -314,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "BankLoanDbContext.cs",
               "DocumentMoniker": "D:\\WebAPI\\LoanManagementSystem.Preethu.FullStack\\Backend\\LoanManagement.Preethu.Api\\LoanManagement.Preethu.Api\\Database\\BankLoanDbContext.cs",
               "RelativeDocumentMoniker": "LoanManagement.Preethu.Api\\Database\\BankLoanDbContext.cs",
