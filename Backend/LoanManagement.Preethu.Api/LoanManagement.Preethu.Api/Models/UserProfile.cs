@@ -4,5 +4,9 @@ namespace LoanManagement.Preethu.Api.Models
 {
     public class UserProfile:IdentityUser
     {
+        public string FullName { get; set; }
+        //nav
+        public CustomerProfile Customer { get; set; }
+        public OfficerProfile Officer { get; set; }
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LoanManagement.Preethu.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f9c730dd0c77264d18560efc0a72591511cac60")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0aac65644d0275385b3e2eb31533b341ffc16d17")]
 [assembly: System.Reflection.AssemblyProductAttribute("LoanManagement.Preethu.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LoanManagement.Preethu.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

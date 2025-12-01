@@ -11,5 +11,10 @@ namespace LoanManagement.Preethu.Api.Database
         {
             
         }
+        public DbSet<UserProfile> TblUsers { get; set; }
+        public DbSet<OfficerProfile> TblOfficers { get; set; }
+        public DbSet<AdminProfile> TblAdmins { get; set; }
+        public DbSet<CustomerProfile> TblCustomer { get; set; }
+
     }
 }
