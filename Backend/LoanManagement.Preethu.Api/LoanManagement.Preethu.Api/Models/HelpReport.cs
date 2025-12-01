@@ -1,9 +1,12 @@
-﻿namespace LoanManagement.Preethu.Api.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace LoanManagement.Preethu.Api.Models
 {
     public class HelpReport
     {
+        [Key]
         public int ReportId { get; set; }
-        public int UserId { get; set; }
+        public string UserId { get; set; }
         public UserProfile User { get; set; }
         public string Subject { get; set; }
         public string MessageBody { get; set; }

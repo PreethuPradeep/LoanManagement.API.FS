@@ -1,7 +1,10 @@
-﻿namespace LoanManagement.Preethu.Api.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace LoanManagement.Preethu.Api.Models
 {
     public class FeedBackQuestion
     {
+        [Key]
         public int FeedBackId { get; set; }
 
         public string FeedBackQn { get; set; }

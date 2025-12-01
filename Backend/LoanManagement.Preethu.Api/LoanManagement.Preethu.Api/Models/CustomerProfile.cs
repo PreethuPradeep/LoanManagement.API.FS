@@ -1,9 +1,11 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LoanManagement.Preethu.Api.Models
 {
     public class CustomerProfile
     {
+        [Key]
         public int CustomerId { get; set; }
         public string UserId { get; set; }
         [ForeignKey("UserId")]

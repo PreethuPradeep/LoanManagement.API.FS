@@ -1,9 +1,11 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LoanManagement.Preethu.Api.Models
 {
     public class BackGroundVerification
     {
+        [Key]
         public int BackGroundVerificationId { get; set; }
         public int LoanRequestId { get; set; }
         [ForeignKey("LoanRequestId")]
