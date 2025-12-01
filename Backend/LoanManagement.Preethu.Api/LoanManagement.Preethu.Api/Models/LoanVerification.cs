@@ -12,7 +12,7 @@ namespace LoanManagement.Preethu.Api.Models
         [ForeignKey("OfficerId")]
         public OfficerProfile Officer { get; set; }
         public string VerificationNotes { get; set; }
-        public string Result { get; set; }
+        public VerificationResult Result { get; set; }
         public DateTime CraetedAt { get; set; } = DateTime.UtcNow;
 
     }

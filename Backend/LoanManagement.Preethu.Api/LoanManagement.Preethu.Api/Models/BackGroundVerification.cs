@@ -13,7 +13,7 @@ namespace LoanManagement.Preethu.Api.Models
         public string AddressCheck { get; set; }
         public string IncomeCheck { get; set; }
         public string OccupationCheck { get; set; }
-        public string Result { get; set; }
+        public VerificationResult Result { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
     }
 }

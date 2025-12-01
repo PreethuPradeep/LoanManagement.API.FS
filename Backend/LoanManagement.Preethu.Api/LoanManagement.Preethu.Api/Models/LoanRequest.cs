@@ -8,7 +8,7 @@ namespace LoanManagement.Preethu.Api.Models
         public int CustomerId { get; set; }
         [ForeignKey("CustomerId")]
         public CustomerProfile Customer { get; set; }
-        public string LoanType { get; set; }
+        public LoanType LoanType { get; set; }
         public decimal AmountRequested { get; set; }
         public string CollateralDetails { get; set; }
         public string Purpose { get; set; }
@@ -16,7 +16,7 @@ namespace LoanManagement.Preethu.Api.Models
         public decimal InterestRate { get; set; }
         public decimal CollateralEstimatedWorth { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
-        public string Status { get; set; }
+        public LoanRequestStatus Status { get; set; }
         public ICollection<LoanVerification> LoanVerification { get; set; }
         public ICollection<BackGroundVerification> BackGroundVerification { get; set; }
     }
