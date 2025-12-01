@@ -33,9 +33,12 @@ namespace LoanManagement.Preethu.Api
                     var ConnectionString = builder.Configuration.GetConnectionString("ListuraHome");
                     options.UseSqlServer(ConnectionString);
                 });
-            builder.Services.AddIdentity<UserProfile, IdentityRole>()
-                    .AddEntityFrameworkStores<BankLoanDbContext>()
-                    .AddDefaultTokenProviders();
+            builder.Services.AddIdentity<UserProfile, IdentityRole>(options =>
+            {
+                options.SignIn.RequireConfirmedEmail = false;
+            })
+                                .AddEntityFrameworkStores<BankLoanDbContext>()
+                                .AddDefaultTokenProviders();
             builder.Services.AddCors(options =>
             {
                 options.AddPolicy("AllowAngularApp", policy =>
@@ -79,7 +82,6 @@ namespace LoanManagement.Preethu.Api
             app.UseAuthentication();
             app.UseAuthorization();
 
-            app.MapIdentityApi<UserProfile>();
             app.MapControllers();
 
             app.Run();
